@@ -120,7 +120,7 @@ class BehaviorRequestTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><a wicket:id=\"container\">container</a></html>");
+			return new StringResourceStream("<html lang=\"en\"><a wicket:id=\"container\">container</a></html>");
 		}
 	}
 

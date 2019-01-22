@@ -89,7 +89,7 @@ public class RequestCycleListenerDetachOrderTest
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html></html>");
+			return new StringResourceStream("<html lang='en'></html>");
 		}
 	}
 

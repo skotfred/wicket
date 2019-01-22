@@ -120,7 +120,7 @@ class AbstractTransformerBehaviorTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><span wicket:id='label'></span><a wicket:id='updateLabel'>Link</a></body></html>");
+				"<html lang='en'><body><span wicket:id='label'></span><a wicket:id='updateLabel'>Link</a></body></html>");
 		}
 	}
 
@@ -132,7 +132,7 @@ class AbstractTransformerBehaviorTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>{to be replaced}</body></html>");
+			return new StringResourceStream("<html lang='en'><body>{to be replaced}</body></html>");
 		}
 
 	}

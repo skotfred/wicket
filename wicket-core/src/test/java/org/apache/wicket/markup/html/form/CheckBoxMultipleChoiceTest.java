@@ -104,7 +104,7 @@ class CheckBoxMultipleChoiceTest extends WicketTestCase
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body>" //
+			return Markup.of("<html lang='en'><body>" //
 				+ "<div wicket:id='checkWithoutPrefix'></div>" //
 				+ "<div wicket:id='checkWithFixedPrefix'></div>" //
 				+ "<div wicket:id='checkWithDynamicPrefix'></div>" //

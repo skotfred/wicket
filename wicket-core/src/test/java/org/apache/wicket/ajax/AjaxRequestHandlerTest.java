@@ -343,7 +343,7 @@ class AjaxRequestHandlerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><a wicket:id='updatePage'>link1</a><br/><br/><br/><a wicket:id='updateComponent'>Link2</a></body></html>");
+				"<html lang='en'><body><a wicket:id='updatePage'>link1</a><br/><br/><br/><a wicket:id='updateComponent'>Link2</a></body></html>");
 		}
 	}
 

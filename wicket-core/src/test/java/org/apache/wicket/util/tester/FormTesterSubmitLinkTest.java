@@ -118,7 +118,7 @@ class FormTesterSubmitLinkTest extends WicketTestCase
 				Class<?> containerClass)
 			{
 				return new StringResourceStream(
-					"<html><body><form wicket:id='form'><div wicket:id='group'><input type='radio' wicket:id='a'/><input type='radio' wicket:id='b'/></div><input wicket:id='submit' type='submit'/></form></body></html>");
+					"<html lang='en'><body><form wicket:id='form'><div wicket:id='group'><input type='radio' wicket:id='a'/><input type='radio' wicket:id='b'/></div><input wicket:id='submit' type='submit'/></form></body></html>");
 			}
 		}
 

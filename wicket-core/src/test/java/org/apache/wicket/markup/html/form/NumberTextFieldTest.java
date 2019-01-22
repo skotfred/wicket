@@ -172,7 +172,7 @@ class NumberTextFieldTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body>"
+				"<html lang=\"en\"><body>"
 					+ "<form wicket:id=\"form\"><input wicket:id=\"number\" step=\"any\" type=\"number\" /></form></body></html>");
 		}
 	}

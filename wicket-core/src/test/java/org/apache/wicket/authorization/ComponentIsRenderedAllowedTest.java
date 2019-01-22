@@ -80,7 +80,7 @@ class ComponentIsRenderedAllowedTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><div wicket:id='forbidden'><div wicket:id='normal'></div></div></body></html>");
+				"<html lang='en'><body><div wicket:id='forbidden'><div wicket:id='normal'></div></div></body></html>");
 		}
 
 	}

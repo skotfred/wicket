@@ -58,7 +58,7 @@ class ComponentInitializationIntegrationTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><div wicket:id='t1'></div></body></html>");
+			return new StringResourceStream("<html lang='en'><body><div wicket:id='t1'></div></body></html>");
 		}
 
 		@Override

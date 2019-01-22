@@ -109,6 +109,6 @@ public class MockPageParametersAware extends WebPage
 		Class<?> containerClass)
 	{
 		return new StringResourceStream(
-			"<html><body><form wicket:id=\"form\"><input wicket:id=\"textfield\"/></form></body></html>");
+			"<html lang=\"en\"><body><form wicket:id=\"form\"><input wicket:id=\"textfield\"/></form></body></html>");
 	}
 }

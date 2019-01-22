@@ -313,7 +313,7 @@ class PageProviderTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><a wicket:id=\"link\"></a><a wicket:id=\"ajaxLink\"></a>"
+				"<html lang=\"en\"><body><a wicket:id=\"link\"></a><a wicket:id=\"ajaxLink\"></a>"
 					+ "<a wicket:id=\"restartIntercept\"></a></body></html>");
 		}
 	}
@@ -327,7 +327,7 @@ class PageProviderTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body></body></html>");
+			return new StringResourceStream("<html lang='en'><body></body></html>");
 		}
 	}
 }

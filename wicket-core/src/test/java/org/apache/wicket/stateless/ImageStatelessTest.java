@@ -66,7 +66,7 @@ class ImageStatelessTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><img wicket:id='test'/></body></html>");
+			return new StringResourceStream("<html lang='en'><body><img wicket:id='test'/></body></html>");
 		}
 	}
 }

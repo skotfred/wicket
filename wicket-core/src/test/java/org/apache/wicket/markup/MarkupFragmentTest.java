@@ -110,7 +110,7 @@ class MarkupFragmentTest extends WicketTestCase
 	@Test
 	void iteratorMustBeSameAsGetByIndex() {
 		// test markup
-		Markup markup = Markup.of("<html><body><wicket:panel><wicket:container wicket:id='content'><a wicket:id='link' href='https://www.google.de'>Test</a></wicket:container></wicket:panel></body></html>");
+		Markup markup = Markup.of("<html lang='en'><body><wicket:panel><wicket:container wicket:id='content'><a wicket:id='link' href='https://www.google.de'>Test</a></wicket:container></wicket:panel></body></html>");
 
 		IMarkupFragment firstLevelFragment = markup.find("content");
 		LOG.debug("First level fragment: '{}' with size '{}'", firstLevelFragment, firstLevelFragment.size());

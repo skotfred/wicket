@@ -114,7 +114,7 @@ class OnComponentTagListenerTest extends WicketTestCase {
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass) {
-			return new StringResourceStream("<html><body><div wicket:id='c1'><div wicket:id='c2'></div></div><div wicket:id='c3'></div></body></html>");
+			return new StringResourceStream("<html lang='en'><body><div wicket:id='c1'><div wicket:id='c2'></div></div><div wicket:id='c3'></div></body></html>");
 		}
 	}
 

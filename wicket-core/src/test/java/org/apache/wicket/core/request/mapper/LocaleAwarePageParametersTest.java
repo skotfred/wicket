@@ -120,7 +120,7 @@ class LocaleAwarePageParametersTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>content</body></html>");
+			return new StringResourceStream("<html lang='en'><body>content</body></html>");
 		}
 	}
 

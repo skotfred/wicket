@@ -71,7 +71,7 @@ class RestartResponseExceptionTest extends WicketTestCase
 				@Override
 				protected String getString()
 				{
-					return "<html></html>";
+					return "<html lang='en'></html>";
 				}
 			};
 		}

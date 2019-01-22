@@ -73,7 +73,7 @@ class TextAreaTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body>"
+				"<html lang=\"en\"><body>"
 					+ "<form wicket:id=\"form\"><textarea wicket:id=\"textarea\"></textarea></form></body></html>");
 		}
 	}

@@ -11,7 +11,7 @@ we can build a panel called _HeaderPanel_ with a related markup file called Head
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 ...
@@ -32,7 +32,7 @@ we can build a panel called _HeaderPanel_ with a related markup file called Head
       </table>   
    </wicket:panel>
 </body>
-<html>
+</html>
 ----
 
 The class for this panel simply extends base class _Panel_:
@@ -65,7 +65,7 @@ Now we can build a generic template page using our brand new panels. Its markup 
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 ...
@@ -121,7 +121,7 @@ As final example we will build the login page for our site. We will call it _Sim
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <head>
 </head>
 <body>

@@ -59,7 +59,7 @@ class AddChildToParentInOnInitializeTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><head></head><body>" +
+			return new StringResourceStream("<html lang='en'><head></head><body>" +
 					"<div wicket:id='"+ PARENT_ID +"'>" +
 						"<div wicket:id='"+FIRST_CHILD_ID+"'></div>" +
 						"<div wicket:id='"+ SECOND_CHILD_ID +"'></div>" +

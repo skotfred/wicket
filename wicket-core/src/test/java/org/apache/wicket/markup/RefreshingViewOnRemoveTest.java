@@ -165,7 +165,7 @@ class RefreshingViewOnRemoveTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><ul><li wicket:id='repeater'><span wicket:id='label'></span></li></ul></body></html>");
+				"<html lang='en'><body><ul><li wicket:id='repeater'><span wicket:id='label'></span></li></ul></body></html>");
 		}
 	}
 }

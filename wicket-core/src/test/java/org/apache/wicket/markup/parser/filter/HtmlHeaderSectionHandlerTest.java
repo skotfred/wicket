@@ -56,7 +56,7 @@ class HtmlHeaderSectionHandlerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			// <head> is not closed before <body>
-			return new StringResourceStream("<html><head><body>bad markup!</body></head></html>");
+			return new StringResourceStream("<html lang='en'><head><body>bad markup!</body></head></html>");
 		}
 	}
 }

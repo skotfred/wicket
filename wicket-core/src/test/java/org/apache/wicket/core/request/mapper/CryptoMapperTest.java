@@ -699,7 +699,7 @@ class CryptoMapperTest extends AbstractMapperTest
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body wicket:id=\"link\"></body></html>");
+			return Markup.of("<html lang=\"en\"><body wicket:id=\"link\"></body></html>");
 		}
 	}
 
@@ -722,7 +722,7 @@ class CryptoMapperTest extends AbstractMapperTest
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body wicket:id=\"link\"></body></html>");
+			return Markup.of("<html lang=\"en\"><body wicket:id=\"link\"></body></html>");
 		}
 	}
 
@@ -745,7 +745,7 @@ class CryptoMapperTest extends AbstractMapperTest
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body wicket:id=\"link\"></body></html>");
+			return Markup.of("<html lang=\"en\"><body wicket:id=\"link\"></body></html>");
 		}
 	}
 }

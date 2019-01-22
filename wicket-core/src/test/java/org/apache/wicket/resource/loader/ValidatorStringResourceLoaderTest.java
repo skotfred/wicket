@@ -103,7 +103,7 @@ class ValidatorStringResourceLoaderTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><form wicket:id='form'><input type='password' wicket:id='passwd' /></form></body></html>");
+			return new StringResourceStream("<html lang='en'><body><form wicket:id='form'><input type='password' wicket:id='passwd' /></form></body></html>");
 		}
 	}
 
@@ -148,7 +148,7 @@ class ValidatorStringResourceLoaderTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><form wicket:id='form'><input wicket:id='field1'/><input wicket:id='field2'/></form></body></html>");
+			return new StringResourceStream("<html lang='en'><body><form wicket:id='form'><input wicket:id='field1'/><input wicket:id='field2'/></form></body></html>");
 		}
 	}
 	

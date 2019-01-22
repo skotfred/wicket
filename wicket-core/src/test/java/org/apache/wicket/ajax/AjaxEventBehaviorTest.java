@@ -137,7 +137,7 @@ class AjaxEventBehaviorTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><span wicket:id='comp'></span></body></html>");
+				"<html lang='en'><body><span wicket:id='comp'></span></body></html>");
 		}
 	}
 }

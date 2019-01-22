@@ -89,7 +89,7 @@ class MarkupVariationTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 
-			return new StringResourceStream("<html><body><div wicket:id='p'></div></body></html>");
+			return new StringResourceStream("<html lang='en'><body><div wicket:id='p'></div></body></html>");
 		}
 	}
 

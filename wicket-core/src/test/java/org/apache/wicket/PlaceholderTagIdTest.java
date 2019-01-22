@@ -70,7 +70,7 @@ class PlaceholderTagIdTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><form wicket:id='form'></form></body></html>");
+				"<html lang='en'><body><form wicket:id='form'></form></body></html>");
 		}
 	}
 

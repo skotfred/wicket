@@ -20,7 +20,7 @@ In the following example taken from project ImageAsPackageRes, CustomPanel loads
 *HTML:*
 [source,html]
 ----
-<html>
+<html lang="en">
 <head>...</head>
 <body>
 <wicket:panel>

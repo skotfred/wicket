@@ -122,7 +122,7 @@ abstract class ExceptionMapperTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body></body></html>");
+			return new StringResourceStream("<html lang='en'><body></body></html>");
 		}
 	}
 

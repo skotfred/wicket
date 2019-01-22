@@ -47,6 +47,6 @@ class PageWithRepeater extends WebPage implements IMarkupResourceStreamProvider
 	@Override
 	public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 	{
-		return new StringResourceStream("<html><body><div wicket:id='listView'><span wicket:id='label'></span></div></body></html>");
+		return new StringResourceStream("<html lang='en'><body><div wicket:id='listView'><span wicket:id='label'></span></div></body></html>");
 	}
 }

@@ -339,7 +339,7 @@ class XmlPullParserTest
 	final void script() throws Exception
 	{
 		final XmlPullParser parser = new XmlPullParser();
-		parser.parse("<html><script language=\"JavaScript\">... <x a> ...</script></html>");
+		parser.parse("<html lang=\"en\"><script language=\"JavaScript\">... <x a> ...</script></html>");
 		XmlTag tag = parser.nextTag();
 		assertTrue(tag.isOpen());
 		assertEquals("html", tag.getName());

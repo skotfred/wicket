@@ -92,7 +92,7 @@ public class DateTextFieldTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream(String.format("<html><body>" +
+			return new StringResourceStream(String.format("<html lang=\"en\"><body>" +
 				"<form wicket:id=\"form\"><input wicket:id=\"text\" type=\"%s\"/></form></body></html>",
 				inputType));
 		}

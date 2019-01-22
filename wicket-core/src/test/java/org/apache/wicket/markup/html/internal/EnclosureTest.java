@@ -406,7 +406,7 @@ class EnclosureTest extends WicketTestCase
 				Class<?> containerClass)
 			{
 				return new StringResourceStream(
-					"<html><body><div wicket:enclosure='msg'><span wicket:id='msg'></span></div><input type='button' value='Toggle' wicket:id='b'/></body></html>");
+					"<html lang='en'><body><div wicket:enclosure='msg'><span wicket:id='msg'></span></div><input type='button' value='Toggle' wicket:id='b'/></body></html>");
 			}
 		}
 

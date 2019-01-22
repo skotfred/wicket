@@ -86,7 +86,7 @@ class WicketTesterSessionInvalidateTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><a wicket:id='link'>link</a></body></html>");
+				"<html lang='en'><body><a wicket:id='link'>link</a></body></html>");
 		}
 	}
 }

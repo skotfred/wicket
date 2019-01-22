@@ -135,7 +135,7 @@ class ComponentConfigurationTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><div wicket:id=\"t1\"></div><div wicket:id=\"t2\"></div><a wicket:id=\"link\"></a></body></html>");
+				"<html lang=\"en\"><body><div wicket:id=\"t1\"></div><div wicket:id=\"t2\"></div><a wicket:id=\"link\"></a></body></html>");
 		}
 	}
 

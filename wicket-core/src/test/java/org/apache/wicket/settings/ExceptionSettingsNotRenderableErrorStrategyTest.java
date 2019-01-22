@@ -130,7 +130,7 @@ class ExceptionSettingsNotRenderableErrorStrategyTest extends WicketTestCase {
 
         @Override
         public IResourceStream getMarkupResourceStream(final MarkupContainer container, final Class<?> containerClass) {
-            return new StringResourceStream("<html><body><wicket:label wicket:id='test'/></body></html>");
+            return new StringResourceStream("<html lang='en'><body><wicket:label wicket:id='test'/></body></html>");
         }
     }
 
@@ -146,7 +146,7 @@ class ExceptionSettingsNotRenderableErrorStrategyTest extends WicketTestCase {
 
         @Override
         public IResourceStream getMarkupResourceStream(final MarkupContainer container, final Class<?> containerClass) {
-            return new StringResourceStream("<html><body><span wicket:id='test'></span></body></html>");
+            return new StringResourceStream("<html lang='en'><body><span wicket:id='test'></span></body></html>");
         }
     }
 }

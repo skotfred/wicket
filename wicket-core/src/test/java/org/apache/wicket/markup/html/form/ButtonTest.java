@@ -67,7 +67,7 @@ class ButtonTest extends WicketTestCase
 			@Override
 			public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 			{
-				return new StringResourceStream("<html><body>"
+				return new StringResourceStream("<html lang=\"en\"><body>"
 						+ "<form wicket:id=\"form\"><button wicket:id=\"button\"></button></form></body></html>");
 			}
 		};
@@ -92,7 +92,7 @@ class ButtonTest extends WicketTestCase
 			@Override
 			public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 			{
-				return new StringResourceStream("<html><body>"
+				return new StringResourceStream("<html lang=\"en\"><body>"
 				                                + "<form wicket:id=\"form\"><button wicket:id=\"button\">"
 				                                + textInHtml
 				                                + "</button></form></body></html>");
@@ -133,7 +133,7 @@ class ButtonTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>"
+			return new StringResourceStream("<html lang=\"en\"><body>"
 				+ "<form wicket:id=\"form\"><input wicket:id=\"button\" /></form></body></html>");
 		}
 	}

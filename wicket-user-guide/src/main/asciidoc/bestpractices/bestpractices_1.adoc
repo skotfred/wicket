@@ -40,7 +40,7 @@ public class RegistrationPage extends Page {
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <body>
     <form wicket:id="form">
         <!-- These are internal structure information from RegistrationForm -->
@@ -77,7 +77,7 @@ public class RegistrationInputPanel extends Panel{
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <body>
     <wicket:panel>
     <form wicket:id="form">
@@ -114,7 +114,7 @@ public class RegistrationPage extends Page {
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <body>
     <form wicket:id="form">
         <div wicket:id="registration">

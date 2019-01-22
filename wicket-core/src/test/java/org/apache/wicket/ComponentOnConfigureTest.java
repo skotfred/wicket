@@ -74,7 +74,7 @@ class ComponentOnConfigureTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><span wicket:id='c'></span></body></html>");
+				"<html lang='en'><body><span wicket:id='c'></span></body></html>");
 		}
 
 		@Override

@@ -70,7 +70,7 @@ class AjaxFallbackLinkTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><bla wicket:id='l'>Ajax fallback link</bla></body></html>");
+				"<html lang='en'><body><bla wicket:id='l'>Ajax fallback link</bla></body></html>");
 		}
 	}
 

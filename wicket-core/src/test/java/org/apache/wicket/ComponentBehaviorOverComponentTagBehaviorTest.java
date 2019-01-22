@@ -79,7 +79,7 @@ class ComponentBehaviorOverComponentTagBehaviorTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>" +
+			return new StringResourceStream("<html lang=\"en\"><body>" +
 					"<span wicket:id=\"l\" wicket:message=\"title:markupTitle\">Test</span>" +
 					"</body></html>");
 		}

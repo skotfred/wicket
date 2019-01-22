@@ -81,7 +81,7 @@ public class WicketTesterLazyIsPageStatelessRedirectToBufferTest extends WicketT
 	    @Override
 	    public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 	    {
-		return new StringResourceStream("<html>\n" +
+		return new StringResourceStream("<html lang='en'>\n" +
 					"<body>\n" +
 						"\t<a wicket:id=\"link\" />\n" +
 						"\t<form wicket:id=\"statelessForm\"></form>\n" +
@@ -102,7 +102,7 @@ public class WicketTesterLazyIsPageStatelessRedirectToBufferTest extends WicketT
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			String pageMarkup = "<html><head></head><body>" +
+			String pageMarkup = "<html lang='en'><head></head><body>" +
 								"<div>" +
 								"</div>" +
 								"</body></html>";

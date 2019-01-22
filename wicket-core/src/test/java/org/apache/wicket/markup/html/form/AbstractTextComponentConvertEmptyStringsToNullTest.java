@@ -106,7 +106,7 @@ class AbstractTextComponentConvertEmptyStringsToNullTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><form wicket:id='form'><input type='text' wicket:id='array'/></form></body></html>");
+				"<html lang='en'><body><form wicket:id='form'><input type='text' wicket:id='array'/></form></body></html>");
 		}
 	}
 

@@ -96,7 +96,7 @@ class StatelessFormUrlTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><form wicket:id=\"form\"><input wicket:id=\"text\"><a wicket:id=\"submitLink\"></a></form></body></html>");
+				"<html lang=\"en\"><body><form wicket:id=\"form\"><input wicket:id=\"text\"><a wicket:id=\"submitLink\"></a></form></body></html>");
 		}
 
 	}

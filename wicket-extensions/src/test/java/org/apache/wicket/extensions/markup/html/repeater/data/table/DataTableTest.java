@@ -181,7 +181,7 @@ public class DataTableTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><table wicket:id='table'></table></body></html>");
+				"<html lang='en'><body><table wicket:id='table'></table></body></html>");
 		}
 
 	}

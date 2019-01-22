@@ -89,7 +89,7 @@ class ComponentTagAttributeEscapingTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html>"//
+			return new StringResourceStream("<html lang=\"en\">"//
 				+ "<body>"//
 				+
 				"<a wicket:id=\"link\" onclick=\"alert('alerting: &amp; &pound;&#163; ')\">link</a>"//

@@ -160,7 +160,7 @@ final class MarkupParserTest extends WicketTestCase
 		final String docText = ""
 			+ "<?xml version='1.0' encoding='iso-8859-1' ?>"
 			+ "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">"
-			+ "<html>" + "<head><title>Some Page</title></head>"
+			+ "<html lang='en'>" + "<head><title>Some Page</title></head>"
 			+ "<body><h1>XHTML Test</h1></body>" + "</html>";
 		final MarkupParser parser = new MarkupParser(docText);
 		parser.setWicketNamespace("componentName");
@@ -541,7 +541,7 @@ final class MarkupParserTest extends WicketTestCase
 		tag = markup.get(2);
 		assertEquals("</style>", tag.toString());
 
-		markup = new MarkupParser("<html><script> text </script></html>").parse();
+		markup = new MarkupParser("<html lang='en'><script> text </script></html>").parse();
 		assertEquals(5, markup.size());
 		tag = markup.get(1);
 		assertEquals("<script>", tag.toString());

@@ -48,7 +48,7 @@ public class XmlReaderTest
 
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertEquals("<body>", bufReader.readLine());
 		}
 	}
@@ -62,7 +62,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}
@@ -76,7 +76,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}
@@ -90,7 +90,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}
@@ -104,7 +104,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}
@@ -118,7 +118,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}
@@ -133,7 +133,7 @@ public class XmlReaderTest
 		try (BufferedReader bufReader = new BufferedReader(reader);)
 		{
 			assertEquals("", bufReader.readLine().trim());
-			assertEquals("<html>", bufReader.readLine());
+			assertEquals("<html lang=\"en\">", bufReader.readLine());
 			assertNull(bufReader.readLine());
 		}
 	}

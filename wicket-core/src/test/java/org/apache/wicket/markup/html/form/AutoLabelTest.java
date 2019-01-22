@@ -198,7 +198,7 @@ class AutoLabelTest extends WicketTestCase
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body><form wicket:id='f'>\n" + labelMarkup +
+			return Markup.of("<html lang='en'><body><form wicket:id='f'>\n" + labelMarkup +
 				"\n<input type='text' wicket:id='t'/>\n</form></body></html>");
 		}
 	}

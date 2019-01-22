@@ -136,7 +136,7 @@ class FormWithMultipleButtonsTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><form wicket:id=\"form\"><button wicket:id=\"b1\"></button><button wicket:id=\"b2\"></button></form></body></html>");
+				"<html lang=\"en\"><body><form wicket:id=\"form\"><button wicket:id=\"b1\"></button><button wicket:id=\"b2\"></button></form></body></html>");
 		}
 	}
 

@@ -71,7 +71,7 @@ class UploadStatusResource extends AbstractResource
 			@Override
 			public void writeData(final Attributes attributes)
 			{
-				attributes.getResponse().write("<html><body>|");
+				attributes.getResponse().write("<html lang='en'><body>|");
 				attributes.getResponse().write(status);
 				attributes.getResponse().write("|</body></html>");
 			}

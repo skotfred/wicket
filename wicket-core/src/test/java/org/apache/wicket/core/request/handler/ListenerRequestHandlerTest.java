@@ -179,7 +179,7 @@ public class ListenerRequestHandlerTest extends WicketTestCase
 		{
 
 			return new StringResourceStream(
-				"<html><body><a wicket:id='test'>Link</a></body></html>");
+				"<html lang='en'><body><a wicket:id='test'>Link</a></body></html>");
 		}
 
 	}
@@ -206,7 +206,7 @@ public class ListenerRequestHandlerTest extends WicketTestCase
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body><a wicket:id=\"statelessLink\"></a></body></html>");
+			return Markup.of("<html lang='en'><body><a wicket:id=\"statelessLink\"></a></body></html>");
 		}
 
 		@Override

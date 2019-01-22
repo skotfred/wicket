@@ -57,7 +57,7 @@ class HtmlHandlerTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><span wicket:id='label'></span></body></html>");
+			return new StringResourceStream("<html lang='en'><body><span wicket:id='label'></span></body></html>");
 		}
 	}
 }

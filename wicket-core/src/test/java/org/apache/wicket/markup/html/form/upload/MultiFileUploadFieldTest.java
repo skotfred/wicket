@@ -133,7 +133,7 @@ class MultiFileUploadFieldTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>\n" +
+			return new StringResourceStream("<html lang=\"en\"><body>\n" +
 					"\t\t<form wicket:id=\"f\">\n" +
 					"\t\t\t<input type=\"file\" wicket:id=\"muf\" />\n" +
 					"\t\t\t<input type=\"submit\" value=\"Submit!\" />\t\n" +

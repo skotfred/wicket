@@ -71,7 +71,7 @@ class MarkupHeadFirstTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><div wicket:id=\"panel\"></div></body></html>");
+				"<html lang=\"en\"><body><div wicket:id=\"panel\"></div></body></html>");
 		}
 	}
 

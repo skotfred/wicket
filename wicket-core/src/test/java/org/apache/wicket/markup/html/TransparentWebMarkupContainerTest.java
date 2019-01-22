@@ -305,7 +305,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-				"<html><body>" + //
+				"<html lang=\"en\"><body>" + //
 				"	<div wicket:id=\"border\">" + //
 				"		<div wicket:id=\"c1\"></div>" + // component is only at the markup
 				"	</div>" + //
@@ -349,7 +349,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-				"<html><body>" + //
+				"<html lang=\"en\"><body>" + //
 				"	<div wicket:id=\"_wicket_enclosure\"></div>" + //
 				"	<div wicket:id=\"container\">" + //
 				"		<wicket:enclosure child=\"msg\">" + //
@@ -377,7 +377,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-				"<html><body>" + //
+				"<html lang=\"en\"><body>" + //
 				"	<div wicket:id=\"_wicket_message\"></div>" + //
 				"	<div wicket:id=\"container\">" + //
 				"		<wicket:message key=\"null\" />" + //
@@ -444,7 +444,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-				"<html><body>" + //
+				"<html lang=\"en\"><body>" + //
 				"	<div wicket:id=\"container\">" + //
 				"		<div wicket:id=\"transparentContainer\">" + //
 				"			<a wicket:id=\"updateContainer\"></a>" + //
@@ -474,7 +474,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-				"<html><body>" + //
+				"<html lang=\"en\"><body>" + //
 				"	<div wicket:id=\"outer\">" + //
 				"		<div wicket:id=\"inner\">" + //
 				"			" + LABEL_MARKUP + //
@@ -500,7 +500,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 				Class<?> containerClass)
 		{
 			return new StringResourceStream("" + //
-					"<html><body>" + //
+					"<html lang=\"en\"><body>" + //
 					" <div wicket:id=\"wrapper\">" + //
 					"	<wicket:child/>" + //
 					" </div>" + //
@@ -525,7 +525,7 @@ public class TransparentWebMarkupContainerTest extends WicketTestCase
 			if (PageWithAChildInsideATransparentContainer.class.equals(containerClass))
 				return super.getMarkupResourceStream(container, containerClass);
 			return new StringResourceStream("" + //
-					"<html><body>" + //
+					"<html lang=\"en\"><body>" + //
 					"<wicket:extend>" + //
 					"	<div wicket:id=\"header\"></div>" + //
 					"	<wicket:fragment wicket:id=\"header\">content</wicket:fragment>" + //

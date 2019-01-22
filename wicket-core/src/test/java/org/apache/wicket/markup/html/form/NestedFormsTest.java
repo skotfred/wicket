@@ -138,7 +138,7 @@ class NestedFormsTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body>"
+				"<html lang=\"en\"><body>"
 					+ "<form wicket:id=\"outerForm\">"//
 					+ "  <input type=\"submit\" wicket:id=\"outerSubmit\"/>"//
 					+ "  <form wicket:id=\"innerForm\"><input type=\"submit\" wicket:id=\"innerSubmit\"/></form>"//

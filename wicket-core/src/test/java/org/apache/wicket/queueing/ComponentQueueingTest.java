@@ -258,7 +258,7 @@ class ComponentQueueingTest extends WicketTestCase
 		MarkupContainer r = new R();
 
 		TestPanel q = new TestPanel("q");
-		q.setPanelMarkup("<html><body><wicket:panel><p wicket:id='r'></p></wicket:panel></body></html>");
+		q.setPanelMarkup("<html lang='en'><body><wicket:panel><p wicket:id='r'></p></wicket:panel></body></html>");
 		q.queue(r);
 
 		TestPage p = new TestPage();
@@ -277,12 +277,12 @@ class ComponentQueueingTest extends WicketTestCase
 		MarkupContainer r = new R();
 
 		TestPanel q = new TestPanel("q");
-		q.setPanelMarkup("<html><head><wicket:head><meta/></wicket:head></head>"
+		q.setPanelMarkup("<html lang='en'><head><wicket:head><meta/></wicket:head></head>"
 			+ "<body><wicket:panel><p wicket:id='r'></p></wicket:panel></body></html>");
 		q.queue(r);
 
 		TestPage p = new TestPage();
-		p.setPageMarkup("<html><head></head><body><p wicket:id='q'></p></body></html>");
+		p.setPageMarkup("<html lang='en'><head></head><body><p wicket:id='q'></p></body></html>");
 		p.queue(q);
 
 		tester.startPage(p);
@@ -307,7 +307,7 @@ class ComponentQueueingTest extends WicketTestCase
 		outerPanel.queue(r, innerPanel);
 
 		TestPage p = new TestPage();
-		p.setPageMarkup("<html><head></head><body><p wicket:id='outer'></p></body></html>");
+		p.setPageMarkup("<html lang='en'><head></head><body><p wicket:id='outer'></p></body></html>");
 		p.queue(outerPanel);
 
 		tester.startPage(p);
@@ -767,7 +767,7 @@ class ComponentQueueingTest extends WicketTestCase
 	void queueInsideHeader()
 	{
 		TestPage page = new TestPage();
-		page.setPageMarkup("<html>"
+		page.setPageMarkup("<html lang='en'>"
 			+"<head><title wicket:id='title'></title></head>"
 			+ "<body><div>"
 			+ "Hello!"

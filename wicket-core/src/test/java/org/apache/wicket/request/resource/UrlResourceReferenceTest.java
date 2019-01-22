@@ -113,7 +113,7 @@ class UrlResourceReferenceTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><head></head></html>");
+			return new StringResourceStream("<html lang='en'><head></head></html>");
 		}
 	}
 }

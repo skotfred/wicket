@@ -167,7 +167,7 @@ class PageIdPoliticTest
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><a wicket:id=\"component\"></a></body></html>");
+				"<html lang=\"en\"><body><a wicket:id=\"component\"></a></body></html>");
 		}
 
 	}

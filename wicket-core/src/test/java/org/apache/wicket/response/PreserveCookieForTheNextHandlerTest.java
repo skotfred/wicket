@@ -66,7 +66,7 @@ class PreserveCookieForTheNextHandlerTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><a wicket:id='link'>Link</a></body></html>");
+			return new StringResourceStream("<html lang='en'><body><a wicket:id='link'>Link</a></body></html>");
 		}
 	}
 

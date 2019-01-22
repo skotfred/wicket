@@ -1499,7 +1499,7 @@ public class BaseWicketTester
 	 */
 	protected String createPageMarkup(final String componentId)
 	{
-		return "<html><head></head><body><span wicket:id='" + componentId +
+		return "<html lang='en'><head></head><body><span wicket:id='" + componentId +
 			"'></span></body></html>";
 	}
 

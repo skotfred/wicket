@@ -1281,7 +1281,7 @@ class MarkupContainerTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body></body></html>");
+			return new StringResourceStream("<html lang='en'><body></body></html>");
 		}
 	}
 
@@ -1328,7 +1328,7 @@ class MarkupContainerTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><div wicket:id='a1'><div wicket:id='a2'><div wicket:id='a3'></div></div></div></body></html>");
+				"<html lang='en'><body><div wicket:id='a1'><div wicket:id='a2'><div wicket:id='a3'></div></div></div></body></html>");
 		}
 	}
 
@@ -1365,7 +1365,7 @@ class MarkupContainerTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><div wicket:id='a1'></div></body></html>");
+			return new StringResourceStream("<html lang='en'><body><div wicket:id='a1'></div></body></html>");
 		}
 	}
 }

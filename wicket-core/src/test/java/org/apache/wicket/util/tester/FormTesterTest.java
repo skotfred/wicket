@@ -288,7 +288,7 @@ class FormTesterTest extends WicketTestCase
 				Class<?> containerClass)
 			{
 				return new StringResourceStream(
-					"<html><body><form wicket:id='form'><select wicket:id='selector'></select></form></body></html>");
+					"<html lang='en'><body><form wicket:id='form'><select wicket:id='selector'></select></form></body></html>");
 			}
 		}
 

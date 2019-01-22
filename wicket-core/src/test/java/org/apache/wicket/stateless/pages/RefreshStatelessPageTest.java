@@ -67,7 +67,7 @@ class RefreshStatelessPageTest extends WicketTestCase
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body>Stateful <a wicket:id='link'>Link</a></body></html>");
+				"<html lang='en'><body>Stateful <a wicket:id='link'>Link</a></body></html>");
 		}
 	}
 
@@ -82,7 +82,7 @@ class RefreshStatelessPageTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>Stateless</body></html>");
+			return new StringResourceStream("<html lang='en'><body>Stateless</body></html>");
 		}
 	}
 

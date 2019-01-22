@@ -69,7 +69,7 @@ class SharedBehaviorTest extends WicketTestCase
 		@Override
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body><div wicket:id='comp1'></div><div wicket:id='comp2'></div></body></html>");
+			return new StringResourceStream("<html lang='en'><body><div wicket:id='comp1'></div><div wicket:id='comp2'></div></body></html>");
 		}
 	}
 

@@ -75,7 +75,7 @@ public class SignInPanelTest
 			Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><div wicket:id='signInPanel'></div></body></html>");
+				"<html lang='en'><body><div wicket:id='signInPanel'></div></body></html>");
 		}
 	}
 

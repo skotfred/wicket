@@ -21,7 +21,7 @@ Our custom component will contain two children components: a text field to let u
 
 [source,html]
 ----
-<html>
+<html lang="en">
 <head>
 </head>
 <body>

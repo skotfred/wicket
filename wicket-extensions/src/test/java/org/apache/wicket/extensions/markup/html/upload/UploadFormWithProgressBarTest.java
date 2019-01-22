@@ -90,7 +90,7 @@ public class UploadFormWithProgressBarTest extends WicketTestCase
 			final Class<?> containerClass)
 		{
 			return new StringResourceStream(
-				"<html><body><a wicket:id=\"re-create\"></a>"
+				"<html lang=\"en\"><body><a wicket:id=\"re-create\"></a>"
 					+ "<form wicket:id=\"uploadForm\"><input wicket:id=\"fileInput\" type=\"file\" /> <span wicket:id=\"progress\"> </span></form>"
 					+ "</body></html>");
 		}

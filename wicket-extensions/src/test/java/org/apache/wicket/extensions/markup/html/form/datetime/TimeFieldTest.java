@@ -104,7 +104,7 @@ public class TimeFieldTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>"
+			return new StringResourceStream("<html lang=\"en\"><body>"
 				+ "<form wicket:id=\"form\"><span wicket:id=\"field\"/></form></body></html>");
 		}
 	}

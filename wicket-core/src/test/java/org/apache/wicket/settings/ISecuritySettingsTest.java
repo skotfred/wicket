@@ -148,7 +148,7 @@ class ISecuritySettingsTest extends WicketTestCase
 		@Override
 		public IMarkupFragment getMarkup()
 		{
-			return Markup.of("<html><body></body></html>");
+			return Markup.of("<html lang='en'><body></body></html>");
 		}
 	}
 }

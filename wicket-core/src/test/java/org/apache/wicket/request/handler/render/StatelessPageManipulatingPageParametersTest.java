@@ -73,7 +73,7 @@ class StatelessPageManipulatingPageParametersTest extends WicketTestCase {
 		public IResourceStream getMarkupResourceStream(MarkupContainer container, Class<?> containerClass) 
 		{
 			String markup = 
-					"<html><body>" + 
+					"<html lang=\"en\"><body>" + 
 						"<form wicket:id=\"form\">"
 							+ "<input type=\"submit\"/> \n" + 
 						"</form>" + 

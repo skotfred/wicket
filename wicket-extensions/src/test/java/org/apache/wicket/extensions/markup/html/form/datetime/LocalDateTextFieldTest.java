@@ -95,7 +95,7 @@ public class LocalDateTextFieldTest extends WicketTestCase
 		public IResourceStream getMarkupResourceStream(MarkupContainer container,
 			Class<?> containerClass)
 		{
-			return new StringResourceStream("<html><body>"
+			return new StringResourceStream("<html lang=\"en\"><body>"
 				+ "<form wicket:id=\"form\"><input wicket:id=\"field\"/></form></body></html>");
 		}
 	}
